@@ -8209,6 +8209,10 @@ textarea.form-control-lg {
   background-image: var(--bs-gradient) !important;
 }
 
+.bg-gray{
+  background-color: #F8F8F8;
+}
+
 .user-select-all {
   -webkit-user-select: all !important;
      -moz-user-select: all !important;
@@ -11044,3 +11048,4 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+

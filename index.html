@@ -15,6 +15,9 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- CDN de Bootstrap Icons -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -44,7 +47,7 @@
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="bi bi-music-note"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
@@ -59,65 +62,163 @@
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="bi bi-music-note"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
+                <div class="row justify-content-center g-4">
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                     <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="border rounded bg-light p-3 h-100">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                                <img class="img-fluid vh-80" src="assets/img/Fourier/Logo-fourier.png" alt="..." />
                             </div>
-                            <img class="img-fluid" src="assets/img/Fourier/Fourier.png" alt="..." />
+                            <div class="mt-4 mb-3">
+                                <h3 class="text-center">Fourier Consulting</h3>
+                            </div>
+                            <div class="mt-4 mb-4 p-1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                            </div>
+                            <div class="text-center mb-4"data-bs-toggle="modal" data-bs-target="#portfolioModal1"><button class="btn btn-primary">View Details</button></div>
                         </div>
-                    </div>
+                     </div>
                     <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                     <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="border rounded bg-light p-3 h-100">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                                <img class="img-fluid vh-80" src="assets/img/Evride/Logo-evride.png" alt="..." />
                             </div>
-                            <img class="img-fluid" src="assets/img/Evride/Evride.png" alt="..." />
+                            <div class="mt-4 mb-3">
+                                <h3 class="text-center">EvRide</h3>
+                            </div>
+                            <div class="mt-4 mb-4 p-1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                            </div>
+                            <div class="text-center mb-4"data-bs-toggle="modal" data-bs-target="#portfolioModal2"><button class="btn btn-primary">View Details</button></div>
                         </div>
-                    </div>
+                     </div>
                     <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                     <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="border rounded bg-light p-3 h-100">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                                <img class="img-fluid vh-80" src="assets/img/CyR/CamarasYRedes.png" alt="..." />
                             </div>
-                            <img class="img-fluid" src="assets/img/CyR/CamarasYRedes.png" alt="..." />
+                            <div class="mt-4 mb-3">
+                                <h3 class="text-center">Camaras y Redes</h3>
+                            </div>
+                            <div class="mt-4 mb-4 p-1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                            </div>
+                            <div class="text-center mb-4"data-bs-toggle="modal" data-bs-target="#portfolioModal3"><button class="btn btn-primary">View Details</button></div>
                         </div>
-                    </div>
+                     </div>
                     <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                     <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="border rounded bg-light p-3 h-100">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                                <img class="img-fluid vh-80" src="assets/img/Motoshopmx/Logo-Motoshopmx.png" alt="..." />
                             </div>
-                            <img class="img-fluid" src="assets/img/Motoshopmx/Motoshopmx.png" alt="..." />
+                            <div class="mt-4 mb-3">
+                                <h3 class="text-center">MotoshopMx</h3>
+                            </div>
+                            <div class="mt-4 mb-4 p-1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                            </div>
+                            <div class="text-center mb-4"data-bs-toggle="modal" data-bs-target="#portfolioModal4"><button class="btn btn-primary">View Details</button></div>
                         </div>
-                    </div>
+                     </div>
                     <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                     <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="border rounded bg-light p-3 h-100">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                                <img class="img-fluid vh-80" src="assets/img/UFT/UFT.png" alt="..." />
                             </div>
-                            <img class="img-fluid" src="assets/img/UFT/UFT.png" alt="..." />
+                            <div class="mt-4 mb-3">
+                                <h3 class="text-center">Universal Food Trailer</h3>
+                            </div>
+                            <div class="mt-4 mb-4 p-1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                            </div>
+                            <div class="text-center mb-4"data-bs-toggle="modal" data-bs-target="#portfolioModal5"><button class="btn btn-primary">View Details</button></div>
                         </div>
                     </div>
                     <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                     <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="border rounded bg-light p-3 h-100">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                                <img class="img-fluid vh-80" src="assets/img/Inelco/Inelco.png" alt="..." />
                             </div>
-                            <img class="img-fluid" src="assets/img/Inelco/Inelco.png" alt="..." />
+                            <div class="mt-4 mb-3">
+                                <h3 class="text-center">Inelco It Solutions</h3>
+                            </div>
+                            <div class="mt-4 mb-4 p-1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                            </div>
+                            <div class="text-center mb-4"data-bs-toggle="modal" data-bs-target="#portfolioModal6"><button class="btn btn-primary">View Details</button></div>
                         </div>
-                    </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scholar Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Scholar Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Scholar Projects</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Scholar Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Scholar Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="border rounded bg-light p-3 h-100">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                                <img class="img-fluid vh-80" src="assets/img/" alt="..." />
+                            </div>
+                            <div class="mt-4 mb-3">
+                                <h3 class="text-center">Fourier Consulting</h3>
+                            </div>
+                            <div class="mt-4 mb-4 p-1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                            </div>
+                            <div class="text-center mb-4"data-bs-toggle="modal" data-bs-target="#portfolioModal1"><button class="btn btn-primary">View Details</button></div>
+                        </div>
+                     </div>
+                    <!-- Scholar Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="border rounded bg-light p-3 h-100">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                                <img class="img-fluid vh-80" src="assets/img/Fourier/Logo-fourier.png" alt="..." />
+                            </div>
+                            <div class="mt-4 mb-3">
+                                <h3 class="text-center">Fourier Consulting</h3>
+                            </div>
+                            <div class="mt-4 mb-4 p-1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                            </div>
+                            <div class="text-center mb-4"data-bs-toggle="modal" data-bs-target="#portfolioModal1"><button class="btn btn-primary">View Details</button></div>
+                        </div>
+                     </div>
+                    <!-- Scholar Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="border rounded bg-light p-3 h-100">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                                <img class="img-fluid vh-80" src="assets/img/Fourier/Logo-fourier.png" alt="..." />
+                            </div>
+                            <div class="mt-4 mb-3">
+                                <h3 class="text-center">Fourier Consulting</h3>
+                            </div>
+                            <div class="mt-4 mb-4 p-1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                            </div>
+                            <div class="text-center mb-4"data-bs-toggle="modal" data-bs-target="#portfolioModal1"><button class="btn btn-primary">View Details</button></div>
+                        </div>
+                     </div>
                 </div>
             </div>
         </section>
